@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:9.5.0
 
 ENV DEBIAN_FRONTEND noninteractive
 ARG docker_port=80
